@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Clément Verna's Notes documentation build configuration file, created by
+# Clement Verna's Notes documentation build configuration file, created by
 # sphinx-quickstart on Wed Jan  3 08:48:47 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Clément Verna\'s Notes'
-copyright = '2018, Clément Verna'
-author = 'Clément Verna'
+project = 'Clement Verna\'s Notes'
+copyright = '2018, Clement Verna'
+author = 'Clement Verna'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -139,8 +139,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ClementVernasNotes.tex', 'Clément Verna\'s Notes Documentation',
-     'Clément Verna', 'manual'),
+    (master_doc, 'ClementVernasNotes.tex', 'Clement Verna\'s Notes Documentation',
+     'Clement Verna', 'manual'),
 ]
 
 
@@ -149,7 +149,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'clementvernasnotes', 'Clément Verna\'s Notes Documentation',
+    (master_doc, 'clementvernasnotes', 'Clement Verna\'s Notes Documentation',
      [author], 1)
 ]
 
@@ -160,7 +160,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ClementVernasNotes', 'Clément Verna\'s Notes Documentation',
+    (master_doc, 'ClementVernasNotes', 'Clement Verna\'s Notes Documentation',
      author, 'ClementVernasNotes', 'One line description of project.',
      'Miscellaneous'),
 ]
