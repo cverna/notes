@@ -47,8 +47,11 @@ Packages
 * https://src.fedoraproject.org/rpms/koji-containerbuild
 
 
-
 Misc
 ****
+
+Rebuild of container buildroot ::
+
+    $ docker build -t buildroot --rm --no-cache /etc/osbs/buildroot
 
 `historical bugzilla FLIBS <https://bugzilla.redhat.com/show_bug.cgi?id=1243736>`_

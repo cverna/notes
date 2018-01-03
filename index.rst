@@ -12,6 +12,7 @@ Clement Verna's Notes
    python.rst
    fedora.rst
    osbs.rst
+   git.rst
 
 Indices and tables
 ==================
