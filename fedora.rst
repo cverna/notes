@@ -6,3 +6,5 @@ Fedora
 
 Fedora notes
 ============
+
+   :ref:`osbs`.
