@@ -7,10 +7,10 @@ Clement Verna's Notes
 =================================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
 
-
+   python.rst
+   fedora.rst
 
 Indices and tables
 ==================
