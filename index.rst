@@ -4,17 +4,17 @@
    contain the root `toctree` directive.
 
 Clement Verna's Notes
-=================================================
+=====================
 
 .. toctree::
    :maxdepth: 1
 
    python.rst
    fedora.rst
+   osbs.rst
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`

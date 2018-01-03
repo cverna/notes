@@ -1,8 +1,8 @@
 .. _osbs:
 
-++++
-OSBS
-++++
+++++++++++
+OSBS notes
+++++++++++
 
 Fedora's Openshift Build System
 ===============================
