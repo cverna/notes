@@ -20,6 +20,7 @@ Documentation
 
 * `osbs doc <https://github.com/projectatomic/osbs-docs>`_ and on `readthedocs <https://readthedocs.org/projects/osbs/>`_
 * `Fedora Layered Image Build System <https://docs.pagure.org/releng/layered_image_build_service.html>`_
+* `OSBS deployment guide <https://github.com/projectatomic/osbs-client/blob/master/docs/osbs_instance_setup.md>`_
 
  
 Deployment
