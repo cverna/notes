@@ -14,3 +14,9 @@ Get a dict keys in a for loop ::
     	print(key)
 
 the keys a, b and c will be printed.
+
+Run a single test with nose ::
+
+    nosetests name_of_the_module.py:Nameoftheclass.nameofthetest
+
+
