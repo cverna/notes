@@ -15,6 +15,11 @@ Upstream
 * `Openshift (Build system) <https://docs.openshift.org/latest/dev_guide/builds.html>`_
 * `koji-containerbuild <https://github.com/release-engineering/koji-containerbuild>`_
 
+Development Environment
+
+* `osbs-box <https://github.com/lcarva/osbs-box>`_
+
+
 Documentation
 *************
 
