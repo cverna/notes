@@ -60,4 +60,10 @@ Rebuild of container buildroot ::
 
     $ docker build -t buildroot --rm --no-cache /etc/osbs/buildroot
 
+Check for build running in openshift ::
+
+    $ oc login
+    $ oc status
+    $ oc -n osbs describe build <my-build>
+
 `historical bugzilla FLIBS <https://bugzilla.redhat.com/show_bug.cgi?id=1243736>`_
