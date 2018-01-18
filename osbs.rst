@@ -66,4 +66,6 @@ Check for build running in openshift ::
     $ oc status
     $ oc -n osbs describe build <my-build>
 
+Docker insecure-registry : To add the insecure registry need to edit the /etc/sysconfig/docker and modify the OPTIONS parameter
+
 `historical bugzilla FLIBS <https://bugzilla.redhat.com/show_bug.cgi?id=1243736>`_
