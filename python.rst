@@ -26,3 +26,5 @@ Get Color in a container shell ::
 Usefull debugger ipdb ::
 
   $ dnf install python2-ipdb
+
+Dedugger to check --> pdb++
