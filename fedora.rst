@@ -47,22 +47,23 @@ This generate a cscope.out file. Inside vim run the following command to add the
 
     :cs add cscope.out
 
-Then use the cs command to search the symbols
+Then use the cs command to search the symbols ::
 
-    find  : Query cscope.  All cscope query options are available
-	    except option #5 ("Change this grep pattern").
+    find = Query cscope.  All cscope query options are available 
+    except option #5 ("Change this grep pattern").
 
-	USAGE	:cs find {querytype} {name}
+    USAGE = cs find {querytype} {name}
 
-	    {querytype} corresponds to the actual cscope line
-	    interface numbers as well as default nvi commands:
+    {querytype} corresponds to the actual cscope line
+    
+    interface numbers as well as default nvi commands:
 
-		0 or s: Find this C symbol
-		1 or g: Find this definition
-		2 or d: Find functions called by this function
-		3 or c: Find functions calling this function
-		4 or t: Find this text string
-		6 or e: Find this egrep pattern
-		7 or f: Find this file
-		8 or i: Find files #including this file
-		9 or a: Find places where this symbol is assigned a value
+    0 or s: Find this C symbol
+    1 or g: Find this definition
+    2 or d: Find functions called by this function
+    3 or c: Find functions calling this function
+    4 or t: Find this text string
+    6 or e: Find this egrep pattern
+    7 or f: Find this file
+    8 or i: Find files #including this file
+    9 or a: Find places where this symbol is assigned a value
