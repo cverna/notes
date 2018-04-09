@@ -60,6 +60,10 @@ Rebuild of container buildroot ::
 
     $ docker build -t buildroot --rm --no-cache /etc/osbs/buildroot
 
+Update packages on target using ansible ::
+
+    $ ansible $target -m package -a "name=koji-containerbuild state=latest"
+
 Check for build running in openshift ::
 
     $ oc login
