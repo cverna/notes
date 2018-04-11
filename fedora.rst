@@ -32,6 +32,10 @@ Build a srpm with mock ::
 
     $ mock -v -r fedora-27-x86_64 SPRM/my.sprm
 
+RPM get version of an rpm ::
+
+    $ rpm -q --qf "%{version}\n" python3
+
 
 NEOVIM
 ======

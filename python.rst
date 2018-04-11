@@ -28,3 +28,7 @@ Usefull debugger ipdb ::
   $ dnf install python2-ipdb
 
 Dedugger to check --> pdb++
+
+Expend PYTHONPATH to add working dir ::
+
+  $ export PYTHONPATH="$(pwd):${PYTHONPATH}"
