@@ -68,7 +68,15 @@ Check for build running in openshift ::
 
     $ oc login
     $ oc status
-    $ oc -n osbs describe build <my-build>
+    $ oc -n osbs-fedora describe build <my-build>
+
+Get builds for a namespace ::
+
+    $ oc -n namespace get build
+
+Cancel a build ::
+
+    $ oc -n namespace cancel-build <my-build>
 
 Docker insecure-registry : To add the insecure registry need to edit the /etc/sysconfig/docker and modify the OPTIONS parameter
 
