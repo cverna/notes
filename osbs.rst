@@ -78,6 +78,10 @@ Cancel a build ::
 
     $ oc -n namespace cancel-build <my-build>
 
+Clean old builds ::
+
+   $ oc adm prune builds --keep-complete=2 --keep-failed=1 --keep-younger-than=24h0m0s --orphans --confirm
+
 Docker insecure-registry : To add the insecure registry need to edit the /etc/sysconfig/docker and modify the OPTIONS parameter
 
 `historical bugzilla FLIBS <https://bugzilla.redhat.com/show_bug.cgi?id=1243736>`_

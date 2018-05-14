@@ -36,6 +36,10 @@ RPM get version of an rpm ::
 
     $ rpm -q --qf "%{version}\n" python3
 
+journalctl follow a service logs ::
+
+   $ journalctl -lfu name_of_the_service
+
 
 NEOVIM
 ======
